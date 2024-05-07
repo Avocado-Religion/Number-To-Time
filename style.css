@@ -1,0 +1,39 @@
+/* variables: */
+body {
+    --background: #44505C;
+    --div: #576675;
+    --text: #232B2E;
+    --button: #44505C;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+
+
+/* DIV 1 NUMBER */
+
+Number-Div {
+    background-color: var(--div);
+}
+
+Number-Div Number-Title {
+    color: green;
+}
+
+/* END DIV 1 NUMBER */
+
+
+
+/* DIV 2 TIME */
+
+Time-Div {
+    background-color: var(--div);
+}
+
+Time-Div Time-Title {
+    color: var(--text);
+}
+
+/* END DIV 2 TIME */

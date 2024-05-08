@@ -7,19 +7,25 @@ body {
 }
 
 body {
-    background-color: var(--blue);
+    background-color: var(--background);
 }
 
 
 
 /* DIV 1 NUMBER */
 
-Number-Div {
+.Number-Div {
     background-color: var(--div);
+    height: 200px;
+    width: 300px;
 }
 
-Number-Div Number-Title {
-    color: green;
+.Number-Div .Number-Title {
+    color: var(--text);
+    padding-left: 115px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* END DIV 1 NUMBER */
@@ -28,12 +34,18 @@ Number-Div Number-Title {
 
 /* DIV 2 TIME */
 
-Time-Div {
+.Time-Div {
     background-color: var(--div);
+    height: 200px;
+    width: 300px;
 }
 
-Time-Div Time-Title {
+.Time-Div .Time-Title {
     color: var(--text);
+    padding-left: 125px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* END DIV 2 TIME */
